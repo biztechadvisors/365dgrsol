@@ -1,0 +1,348 @@
+.st0 {
+    fill: #656564;
+}
+
+.st1 {
+    fill: #ED1C24;
+}
+
+.st2 {
+    fill: #636462;
+}
+
+.st3 {
+    fill: #5B6065;
+}
+
+.st4 {
+    fill: #E61E27;
+}
+
+.st5 {
+    fill: #010101;
+}
+
+.st6 {
+    fill: none;
+    stroke: #010101;
+    stroke-width: 4;
+    stroke-miterlimit: 10;
+}
+
+.home-interiors-subdiv {
+    padding: 40px 45px 20px 45px;
+    background-color: white;
+    text-align: center;
+}
+
+.squarePartner_interiors {
+    padding: 0px 45px 0px 45px;
+}
+
+.interior-row {
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+    margin: 36px 0px;
+}
+
+.interiors {
+    width: 17%;
+    display: inline-block;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+.home-interiors-subdiv .content {
+    font-size: 16px;
+    font-weight: 500;
+    color: #404040;
+    margin: 30px 0px;
+}
+
+.home-interiors-subdiv .content .icon-container svg {
+    width: 100px;
+    height: 65px;
+}
+
+.home-interiors-subdiv .content .icon-container {
+    display: inline-block;
+    width: 100px;
+    height: 65px;
+}
+
+.home-int-heading {
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 29px;
+    text-align: center;
+}
+
+.interior-name {
+    color: #222222;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 17px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+.bookfreeConsultation_btn {
+    text-align: center;
+}
+
+.bookfreeConsultation_btn button {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #E71C24;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+
+.cityInteriror {
+    padding: 0px 5% 40px;
+}
+
+@media(max-width:345px) {
+    .bookfreeConsultation_btn button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .interior-row {
+        text-align: start;
+    }
+
+    .home-interiors-div {
+        padding: 0;
+        background-color: white;
+    }
+
+    .home-interiors-subdiv {
+        padding: 20px 15px 0px 15px;
+        background-color: white;
+        text-align: center;
+    }
+
+    .squarePartner_interiors {
+        padding: 0px 25px 0px 25px;
+    }
+
+    .home-int-heading {
+        margin: 15px 0px;
+        color: #222222;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 29px;
+        text-align: center;
+    }
+
+    .interiors {
+        width: 33%;
+        display: inline-block;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-interiors-subdiv .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .interior-name {
+        padding: 5px;
+        line-height: 17px;
+    }
+
+    .home-interiors-div .btn {
+        padding: 15px 25px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .home-interiors-div .home-interiors-subdiv .btn:hover {
+        color: white;
+    }
+
+    .btn-orange {
+        width: 100%;
+        padding: 14px;
+        background-color: #ff4713;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 20px;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        border: 1px solid transparent;
+        font-weight: 500;
+    }
+
+    .bookfreeConsultation_btn button {
+        padding: 15px 10px;
+    }
+
+    .popup-div {
+        margin: 5%;
+    }
+}
+
+/* -------------- */
+.homepage_homeInteriors__2ZgN_ {
+    border-top: 2px solid #eee;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 64px;
+    padding-right: 64px;
+    text-align: center;
+}
+
+section.animate {
+    -webkit-animation: bounceIn 1s;
+    animation: bounceIn 1s;
+}
+
+.home-interiors-subdiv {
+    padding: 40px 45px 20px 45px;
+    background-color: white;
+    text-align: center;
+}
+
+.home-int-heading {
+    color: #222222;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 29px;
+    text-align: center;
+}
+
+.interior-row {
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+    margin: 36px 0px;
+}
+
+.interiors {
+    width: 17%;
+    display: inline-block;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+.home-interiors-subdiv .content {
+    font-size: 16px;
+    font-weight: 500;
+    color: #404040;
+    margin: 30px 0px;
+}
+
+.home-interiors-subdiv .content .icon-container {
+    display: inline-block;
+    width: 100px;
+    height: 65px;
+}
+
+.home-interiors-subdiv .content .icon-container svg {
+    width: 100px;
+    height: 65px;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.homepage_commonBFB_btn__2IAEC {
+    background-color: #e71c24 !important;
+    border: 1px solid transparent;
+    border-radius: 8px !important;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0 !important;
+    line-height: 19px !important;
+    padding: 15px 30px !important;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    width: auto !important;
+}
+
+button {
+    background: #e71c24;
+    border-radius: 0;
+    border-radius: 4px;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+
+@media (max-width: 768px) {
+    .home-interiors-subdiv {
+        padding: 20px 15px 0px 15px;
+        background-color: white;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .interior-row {
+        text-align: start;
+    }
+}
+
+.home-interiors-subdiv {
+    padding: 40px 45px 20px 45px;
+    background-color: white;
+    text-align: center;
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

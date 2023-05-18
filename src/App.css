@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+img {
+  height: 100%;
+  width: 100%;
+  display: fixed;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 2px;
+  display: relative;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #ef8d9c 30%, #ef8d9c 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+
+  margin: 2px;
+}

@@ -1,0 +1,100 @@
+.productsWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .productsWrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: #000000;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 3px;
+}
+
+.btn:hover {
+    background: #513282;
+}
+
+.heading {
+    padding: 25px 0;
+}
+
+.cartCount {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.cartCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+/* header slider */
+
+.banner-spacing {
+    padding: 10px;
+}
+
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    background: rgb(0, 0, 0);
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    box-sizing: initial;
+}
+
+@media only screen and (min-width: 768px) {
+    .swiper-slide {
+        width: 20%;
+        margin: 0 2%;
+    }
+}
